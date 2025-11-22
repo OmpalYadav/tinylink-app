@@ -78,11 +78,11 @@ export default function Dashboard() {
       <div className="absolute -bottom-20 -right-20 w-96 h-96 rounded-full bg-purple-300 blur-3xl opacity-30 animate-pulse pointer-events-none" />
 
       <div className="max-w-5xl mx-auto relative z-10">
-        {/* Header */}
-        <h1 className="text-5xl font-extrabold text-center mb-3 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600">
+        {/* Header - FIXED (Padding added) */}
+        <h1 className="text-5xl font-extrabold text-center mb-3 pb-2 leading-normal bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600">
           TinyLink
         </h1>
-        <p className="text-gray-500 text-center text-lg mb-10">
+        <p className="text-gray-500 text-center text-lg mb-10 pb-1 leading-normal">
           Shorten URLs faster & track clicks easily
         </p>
 
